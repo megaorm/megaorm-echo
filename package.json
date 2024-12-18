@@ -1,0 +1,47 @@
+{
+  "name": "@megaorm/echo",
+  "version": "1.1.0",
+  "description": "This package designed to provide robust retry mechanisms for your operations. It allows you to configure retry logic with customizable delay and incremental backoffs.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-echo.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc --watch"
+  },
+  "keywords": [
+    "megaorm-echo",
+    "megaorm",
+    "echo",
+    "retry",
+    "retry-mechanism",
+    "job-retry",
+    "asynchronous",
+    "synchronous",
+    "retry-logic",
+    "delays",
+    "backoff",
+    "incremental-backoff",
+    "task-retry",
+    "operation-retry",
+    "failure-retry",
+    "retry-tool",
+    "retry-package",
+    "nodejs",
+    "typescript"
+  ],
+  "dependencies": {
+    "@megaorm/test": "^1.2.0"
+  }
+}
